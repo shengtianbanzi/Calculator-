@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="8"
+    android:columnCount="4"
+    tools:context=".MainActivity"
+    android:layout_gravity="fill"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#666"
+        android:textSize="30sp"
+        android:layout_columnSpan="4"
+        />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:background="@color/white"
+        android:textSize="50sp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        tools:ignore="Autofill,LabelFor,ObsoleteLayoutParam,TextFields" />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CE"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+    <Button
+        android:id="@+id/buttonZF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="±"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonPFG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="√"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText"/>
+
+    <Button
+        android:id="@+id/buttonDEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:text="delete"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textAllCaps="false"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:text="+"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonSix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:text="-"
+        android:background="@drawable/selector"
+
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonSeven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonEight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:background="@drawable/selector"
+
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonNine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonMul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:text="*"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:id="@+id/buttonPoint"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonZero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonEqual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonDiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:text="/"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonSin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sin"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonCos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cos"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText"/>
+
+    <Button
+        android:id="@+id/buttonTan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tan"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:text="log"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonSquare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x^2"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/buttonCube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x^3"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonAbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abs"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonDao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/x"
+        android:background="@drawable/selector"
+        android:layout_gravity="fill_horizontal"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonExp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exp"
+        android:layout_gravity="fill_horizontal"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/buttonBinary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="二进制"
+        android:layout_gravity="fill_horizontal"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonOctal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="八进制"
+        android:layout_gravity="fill_horizontal"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonHex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="十六进制"
+        android:layout_gravity="fill_horizontal"
+        android:background="@drawable/selector"
+        tools:ignore="HardcodedText" />
+
+
+
+</GridLayout>
